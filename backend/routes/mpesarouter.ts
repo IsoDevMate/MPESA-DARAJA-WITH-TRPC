@@ -67,7 +67,7 @@ export const mpesaRouter = router({
             PartyA: `254${phone}`,
             PartyB: shortCode,
             PhoneNumber: `254${phone}`,
-            CallBackURL: process.env.CALLBACKURL || "https://.....com/callback",
+            CallBackURL: process.env.MPESA_CALLBACK_URL || "https://.....com/callback",
             AccountReference: `${phone}`,
             TransactionDesc: "TEST",
           }
