@@ -4,9 +4,7 @@ import cors from "cors";
 import { appRouter } from "./routes/routers";
 const app = express();
 import * as dotenv from "dotenv";
-
 dotenv.config();
-
 
 app.use(cors({ origin: "*" }));
 const createContext = async() => {

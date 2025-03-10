@@ -11,7 +11,7 @@ function App() {
   const trpc = createTRPCProxyClient<AppRouter>({
     links: [
       httpBatchLink({
-        url: 'http://localhost:3000/trpc',
+        url: 'https://mpesa-daraja-with-trpc.onrender.com/trpc',
       }),
     ],
     transformer: superjson,
