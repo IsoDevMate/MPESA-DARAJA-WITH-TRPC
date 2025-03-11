@@ -4,7 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "concurrently \"wsrun --parallel start\""
+  },
+  "workspaces": [
+    "test2/*"
+  ],
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "wsrun": "^5.2.0"
   },
   "keywords": [],
   "author": "",
