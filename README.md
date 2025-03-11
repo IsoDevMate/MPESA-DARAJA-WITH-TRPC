@@ -13,7 +13,12 @@ A modern, type-safe M-Pesa payment integration using tRPC, React, and TypeScript
 
 [Features](#-features) • [Installation](#-installation) • [Tech Stack](#%EF%B8%8F-tech-stack) • [Architecture](#%EF%B8%8F-architecture) • [Environment Setup](#-environment-setup) • [API Documentation](#-api-documentation)
 
+
 </div>
+
+Here is a quick look up of the Result 
+![Screenshot 2025-03-11 025123](https://github.com/user-attachments/assets/ec70c0fc-7117-4dde-80f6-6535366920c9)
+
 
 ## 🌟 Features
 
