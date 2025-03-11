@@ -1,4 +1,3 @@
-// mpesa.router.ts
 import { z } from 'zod';
 import { router, mpesaProcedure } from '../trpc';
 import axios from 'axios';
